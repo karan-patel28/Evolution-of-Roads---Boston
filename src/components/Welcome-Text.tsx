@@ -10,7 +10,6 @@ export default function WelcomeText() {
                     Roads have been crucial in shaping the city's development, influencing its economy, urban layout, and transportation patterns. 
                     Let's explore this story together.
                 </p>
-                <button className="btn btn-primary mt-8 font-bold" onClick={() => console.log('Clicked')}>Explore the Evolution</button>
             </div>
         </div >
     );

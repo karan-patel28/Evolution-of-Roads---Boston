@@ -1,3 +1,6 @@
+import TravelTimeChart from "../chart/Travel-Time";
+import railroad from '../../assets/images/Boston_railroads_map.jpg';
+
 export default function Y1835s() {
     return (
         <>
@@ -7,11 +10,37 @@ export default function Y1835s() {
                 </svg>
             </div>
             <div className="timeline-end mb-10">
-                <time className="font-mono italic text-xl">1835</time>
-                <div className="text-2xl font-black">Apple Watch</div>
-                <p className="text-xl">
-                    The Apple Watch is a line of smartwatches produced by Apple Inc. It incorporates fitness tracking, health-oriented capabilities, and wireless telecommunication, and integrates with iOS and other Apple products and services.
+                <time className="font-mono italic text-3xl font-bold">1835</time>
+                <div className="text-3xl font-black">Boston & Lowell Railroad</div>
+                <p className="text-xl mt-2">
+                    <span className="font-bold text-2xl text-orange-500">P</span>
+                    rimary Purpose: To connect Boston with Lowell, facilitating the transportation of goods and passengers.
                 </p>
+                <p className="text-xl mt-2">
+                    <span className="font-bold text-2xl text-orange-500">C</span>
+                    onstruction Impact: Significant alterations to the landscape, including the leveling of Pemberton Hill to lay the railroad tracks.
+                </p>
+                <p className="text-xl mt-2">
+                    <span className="font-bold text-2xl text-orange-500">I</span>
+                    <span>mpact on Travel Times:</span><br />
+                    The establishment of the Boston & Lowell Railroad dramatically reduced travel times between the two cities. Prior to the railroad, travel by stagecoach between Boston and Lowell could take upwards of a full day. With the new railroad, this journey was reduced to just a couple of hours. This efficiency facilitated quicker movement of goods and people, significantly enhancing economic activities between the cities.
+                </p>
+                <p className="text-xl mt-2">
+                    <span className="font-bold text-2xl text-orange-500">T</span>
+                    ravel Time Reduction:
+                    <br /><br />
+                    <TravelTimeChart />
+                </p>
+                <div className="flex justify-start">
+                    <div className="stats shadow bg-opacity-30 bg-gray-800 text-white rounded-lg">
+                        <div className="stat">
+                            <div className="stat-title font-bold text-white">Total Population</div>
+                            <div className="stat-value">~93383</div>
+                            <div className="stat-desc font-bold text-white">52% increase</div>
+                        </div>
+                    </div>
+                </div>
+                <img className="h-auto w-auto rounded-lg mt-4" src={railroad} alt="Boston Initial Road Network" />
             </div>
         </>
     )

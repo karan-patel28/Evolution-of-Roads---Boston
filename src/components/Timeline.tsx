@@ -5,8 +5,8 @@ import Y1793 from "./Timeline/1793s";
 import Y1806 from "./Timeline/1806";
 import Y1807s from "./Timeline/1807s";
 import Y1835s from "./Timeline/1835s";
-import Y1850s from "./Timeline/1850s";
 import Y1950s from "./Timeline/1950s";
+import Y1956s from "./Timeline/1956s";
 import Y1960s from "./Timeline/1960s";
 import Y1991s from "./Timeline/1991s";
 import Y2007s from "./Timeline/2007s";
@@ -44,11 +44,11 @@ export default function Timeline() {
                     <hr />
                 </li>
                 <li>
-                    <Y1850s />
+                    <Y1950s />
                     <hr />
                 </li>
                 <li>
-                    <Y1950s />
+                    <Y1956s />
                     <hr />
                 </li>
                 <li>
