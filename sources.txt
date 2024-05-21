@@ -1,0 +1,10 @@
+Images: DALLE
+
+Boston History: https://www.bostonmagazine.com/news/2016/09/15/shawmut-boston/
+                https://www.massmoments.org/moment-details/boston-celebrates-250th-birthday.html
+                https://en.wikipedia.org/wiki/Timeline_of_Boston
+                https://en.wikipedia.org/wiki/Boston_Post_Road
+
+Early New England Map: https://bostonraremaps.com/wp-content/uploads/2019/02/Foster_Hubbzard-NBLMC.jpg
+
+Population Data: https://www.iboston.org/mcp.php?pid=popFig
