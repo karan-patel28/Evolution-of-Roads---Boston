@@ -1,4 +1,4 @@
-import boston from '../assets/images/boston og.webp';
+import boston from '../assets/images/boston-dark.webp';
 import InitialRoads from '../components/Early Boston/Initial-Roads';
 import Timeline from '../components/Timeline';
 import TimelineText from '../components/Timeline-Text';

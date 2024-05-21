@@ -1,4 +1,4 @@
-import roadsMap from '../../assets/maps/Boston-post.png'
+import roadsMap from '../../assets/maps/Boston_Post_Road_map.png'
 
 export default function Y1673s() {
     return (
@@ -38,8 +38,8 @@ export default function Y1673s() {
                     <div className="stats shadow bg-opacity-30 bg-gray-800 text-white rounded-lg">
                         <div className="stat">
                             <div className="stat-title font-bold text-white">Total Population</div>
-                            <div className="stat-value">4500</div>
-                            <div className="stat-desc font-bold text-white">26% more than previous</div>
+                            <div className="stat-value">13000</div>
+                            <div className="stat-desc font-bold text-white">983% more increase due to increased trade</div>
                         </div>
                     </div>
                 </div>
