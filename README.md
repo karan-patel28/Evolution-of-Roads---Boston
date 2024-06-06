@@ -1,30 +1,58 @@
-# React + TypeScript + Vite
+# Evolution of Roads in Boston
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project showcases the evolution of roads in Boston through an interactive and engaging website. Built using React with TypeScript and Vite, and styled with Tailwind CSS, the website provides detailed visualizations and information about the development of Boston's road infrastructure.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website offers a comprehensive look at how Boston's roads have evolved over time, highlighting key historical developments and their impact on the city's growth and infrastructure.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Interactive Visualizations**: Dynamic charts and maps showcasing the evolution of roads.
+- **Historical Insights**: Detailed information and timelines about significant milestones in Boston's road development.
+- **Responsive Design**: Fully responsive layout ensuring a seamless experience on all devices.
 
-- Configure the top-level `parserOptions` property like this:
+## Live Demo
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+You can view the live demo of the project [here](https://bostonroads.thekaranpatel.com/).
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Technologies Used
+
+- **React**: For building the user interface.
+- **TypeScript**: For type-safe JavaScript development.
+- **Vite**: For fast and optimized build setup.
+- **Tailwind CSS**: For styling the website.
+- **D3.js**: For creating interactive data visualizations.
+
+## Setup and Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/karan-patel28/Boston-Roads.git
+   ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd Boston-Roads
+    ```
+
+3. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+    ```bash
+    npm run dev
+    ```
+  
+## Usage
+
+- **Navigation**: Explore different sections of the website to learn about various aspects of Boston's road evolution.
+- **Interactivity**: Interact with the visualizations to gain deeper insights into the data presented.
+
+## Contact
+
+If you have any questions or feedback, please contact me at hello@thekaranpatel.com.
